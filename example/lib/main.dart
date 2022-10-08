@@ -59,12 +59,12 @@ class _MyAppState extends State<MyApp> {
               ),
               ElevatedButton(
                 onPressed: () async {
-                  final EmailResult emailResult =
-                      await AccountPicker.emailHint();
+                  final String emailResult = await AccountPicker.getAccountEmailOrId();
+                  // final EmailResult emailResult = await AccountPicker.emailHint();
                   print(emailResult);
                   setState(() {
-                    _email = emailResult.email;
-                    _accountType = emailResult.type;
+                    // _email = emailResult.email;
+                    // _accountType = emailResult.type;
                   });
                 },
                 child: Text('Pick Email'),

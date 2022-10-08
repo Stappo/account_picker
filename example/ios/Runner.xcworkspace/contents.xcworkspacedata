@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../../ios"
+      name = "ios">
+      <Group
+         location = "group:Classes"
+         name = "Classes">
+         <FileRef
+            location = "group:AccountPickerPlugin.h">
+         </FileRef>
+         <FileRef
+            location = "group:SwiftAccountPickerPlugin.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AccountPickerPlugin.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:account_picker.podspec">
+      </FileRef>
+      <Group
+         location = "group:Assets"
+         name = "Assets">
+      </Group>
+   </Group>
    <FileRef
       location = "group:Runner.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

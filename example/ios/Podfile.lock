@@ -1,0 +1,22 @@
+PODS:
+  - account_picker (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - account_picker (from `.symlinks/plugins/account_picker/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  account_picker:
+    :path: ".symlinks/plugins/account_picker/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  account_picker: 2fa3fac5439f9cc24cd3f568fe6e7d6c7fe4d730
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.3
